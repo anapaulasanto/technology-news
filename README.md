@@ -4,14 +4,12 @@
   💻<br>News Technology
 </h1>
 
-<br>
+
 <div align="center">
   <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB">
   <img src="https://img.shields.io/badge/vite-%2338B2AC.svg?style=for-the-badge&logo=vite&logoColor=white">
-   <img src="https://img.shields.io/badge/python-%230db7ed.svg?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/mongodb-6DA55F?style=for-the-badge&logo=mongodb&logoColor=white">
-  <img src="https://img.shields.io/badge/flask-%23323330.svg?style=for-the-badge&logo=flask&logoColor=%BBDEAD">
  </div>
+ <br>
 
 <div align="center">
   <img alt="banner" title="banner" src="news.png">
