@@ -11,7 +11,7 @@ export default function News() {
     const navigate = useNavigate();
 
     useEffect(() => {
-        handleView()
+        handleView(navigate)
     }, [handleView])
 
     useEffect(() => {

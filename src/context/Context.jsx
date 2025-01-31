@@ -8,10 +8,14 @@ export const Provider = ({ children }) => {
     const [news, setNews] = useState([]);
     const [hasSearchResults, setHasSearchResults] = useState(true);
 
-    async function handleView() {
+    async function handleView(navigate) {
         const urlView = DataApi.urlView
         const dataView = await axios.get(urlView)
-        setNews(dataView.data.articles)
+        const view = dataView.data.articles
+        setNews(view)
+
+        if (view.length < 0) {
+            navigate("/block", {state: "A API não retorna notícias para requisição no browser. Clone o repositório :)"})
     }
 
     const handleSearch = async (ev, navigate, inputRef) => {
