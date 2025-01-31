@@ -17,6 +17,7 @@ export const Provider = ({ children }) => {
         if (view.length < 0) {
             navigate("/block", {state: "A API não retorna notícias para requisição no browser. Clone o repositório :)"})
     }
+}
 
     const handleSearch = async (ev, navigate, inputRef) => {
         if (ev.key === "Enter") {
