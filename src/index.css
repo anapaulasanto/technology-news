@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+.font-poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.font-roboto-condensed {
+      font-family: 'Roboto Condensed', sans-serif;
+}
+
+.font-playfair {
+   font-family: 'Playfair Display', serif;
+}
+
+.bg-color {
+  background-color:  #F1F5F9;
+}
+
+.source-color {
+  color:  #008B8B;
+}
+
+.title-color {
+  color:  #1E293B;
+}
+
+.content-color {
+  color:  #475569;
+}
